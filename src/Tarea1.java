@@ -200,7 +200,7 @@ public class Tarea1 {
         return new int[]{min1, min2};
     }
     public static int[] findAnomalies(int[] transactions){
-        if (transactions.length < 3) {//if the array contains less than 3 numbers is physically impossible it got´s a neighbour front and behind
+        if (transactions.length < 3) {
             return new int[0];
         }
         int count = 0;
